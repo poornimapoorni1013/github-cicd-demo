@@ -1,0 +1,12 @@
+cd ~/Desktop
+mkdir GitHub-CICD-Demo
+cd GitHub-CICD-Demo
+
+mkdir -p src/main/java
+touch src/main/java/App.java
+
+touch pom.xml
+touch .gitignore
+
+mkdir -p .github/workflows
+touch .github/workflows/maven.yml
